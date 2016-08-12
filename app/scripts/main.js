@@ -6,6 +6,21 @@
 
 
 
+  //add event listeners to squares;
+  function addEventListenersToSquares(selectSquares) {
+    for (let i = 0; i < selectSquares.length; i++){
+      selectSquares[i].addEventListener("click", function () {
+
+        console.log("I'm clicked");
+      })
+    }
+  }
+
+  let selectSquares = document.getElementsByClassName("square");
+  addEventListenersToSquares(selectSquares);
+
+
+  // console.log(selectSquares);
 
 
 
