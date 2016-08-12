@@ -11,6 +11,8 @@
     for (let i = 0; i < selectSquares.length; i++){
       selectSquares[i].addEventListener("click", function () {
 
+
+        this.classList.add("kokos");
         console.log("I'm clicked");
       })
     }
